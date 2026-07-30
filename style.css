@@ -97,6 +97,25 @@ h1,h2,h3,h4,h5{ font-family:var(--font-display); }
 #projects .card-text{ color:var(--ink-soft); }
 #projects .card-img-top{ height:190px; object-fit:cover; }
 
+
+/* HERO BUTTONS (View Work / Download CV) */
+.hero-section .btn-outline-light,
+.hero-section .btn-outline-light:hover,
+.hero-section .btn-outline-light:focus,
+.hero-section .btn-outline-light:active{
+  color: var(--ink) !important;
+  background: var(--card) !important;
+  border-color: var(--card-border) !important;
+  box-shadow: var(--shadow);
+}
+
+.hero-section .btn-outline-light:hover,
+.hero-section .btn-outline-light:focus{
+  background: var(--indigo-soft) !important;
+  border-color: var(--indigo) !important;
+  color: var(--indigo) !important;
+}
+
 /* ============================================================
    LEARNING JOURNEY SECTION
 ============================================================ */
